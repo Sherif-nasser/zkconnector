@@ -1,0 +1,3 @@
+[submodule "pyzk"]
+	path = zkconnector/pyzk
+	url = https://github.com/DataSoft2022/pyzk.git

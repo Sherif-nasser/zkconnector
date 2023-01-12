@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-03-30 12:14:46.897010",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "device_name",
+  "user_id",
+  "date",
+  "time",
+  "status",
+  "uid",
+  "log_type"
+ ],
+ "fields": [
+  {
+   "fieldname": "device_name",
+   "fieldtype": "Data",
+   "label": "Device Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Data",
+   "label": "User ID",
+   "read_only": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "Time",
+   "read_only": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status",
+   "read_only": 1
+  },
+  {
+   "fieldname": "uid",
+   "fieldtype": "Data",
+   "label": "Uid",
+   "read_only": 1
+  },
+  {
+   "fieldname": "log_type",
+   "fieldtype": "Select",
+   "label": "Log Type",
+   "options": "IN\nOUT",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-04-12 13:36:10.583444",
+ "modified_by": "Administrator",
+ "module": "Zkconnector",
+ "name": "ZKLogs",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
